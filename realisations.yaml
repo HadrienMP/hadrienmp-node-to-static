@@ -1,0 +1,34 @@
+- title: Color Clock
+  url: http://colorclock.hadrienmp.fr
+  img: "/img/color-clock.png"
+  alt: Color clock screenshot
+  description: J'aime les horloges. En particulier les horloges bizarres. Le concept
+    de celle-ci est que chaque heure a une couleur. La couleur du fond suit le dégradé
+    entre l'heure entamée et l'heure suivante.
+
+- title: Mob Time
+  url: http://mobtime.hadrienmp.fr
+  img: "/img/mobtime.png"
+  alt: Mob time screenshot
+  description: En 2019 avec l'équipe Fairways Guaranties de Finance Active, nous avons
+    pu faire le choix de travailler en mob programming. D'après nos mesures, c'est
+    une organisation qui fonctionnait bien pour nous. Pour que tout le monde ait le
+    clavier souvent, nous avons créé notre horloge de mob. Son point de différence
+    avec les autres c'est le son d'alarme customisable et randomisé.
+
+- title: Limbo
+  url: https://github.com/HadrienMP
+  img: "/img/limbo.jpg"
+  alt: Mob time screenshot
+  description: En 2019 avec l'équipe Fairways Guaranties de Finance Active, nous avons
+    pu faire le choix de travailler en mob programming. D'après nos mesures, c'est
+    une organisation qui fonctionnait bien pour nous. Pour que tout le monde ait le
+    clavier souvent, nous avons créé notre horloge de mob. Son point de différence
+    avec les autres c'est le son d'alarme customisable et randomisé.
+
+- title: Random Estimates
+  url: http://randomestimates.hadrienmp.fr
+  img: "/img/random-estimates.png"
+  alt: Random estimates screenshot
+  description: Les estimations en développement peuvent être difficile, fausses voire
+    inutiles. Ce petit outil dédramatise les demandes d'estimations.
