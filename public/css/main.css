@@ -64,58 +64,91 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../sass/_header.sass */
+/* line 3, ../sass/_header.sass */
 header {
   margin-top: 150px;
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 130px;
 }
-/* line 7, ../sass/_header.sass */
+@media (max-width: 500px) {
+  /* line 3, ../sass/_header.sass */
+  header {
+    margin: 70px 0;
+    font-size: 0.9em;
+  }
+}
+/* line 12, ../sass/_header.sass */
 header img {
   border-radius: 100px;
   border: 2px solid white;
   margin: 0 auto;
   display: block;
 }
-/* line 13, ../sass/_header.sass */
+/* line 18, ../sass/_header.sass */
 header h1 {
   margin: 30px 0 10px;
   font-size: 2em;
   font-weight: 900;
   letter-spacing: -0.1em;
 }
-/* line 19, ../sass/_header.sass */
+@media (max-width: 500px) {
+  /* line 18, ../sass/_header.sass */
+  header h1 {
+    letter-spacing: -0.09em;
+  }
+}
+/* line 26, ../sass/_header.sass */
 header h2 {
   letter-spacing: 0.2px;
 }
-/* line 22, ../sass/_header.sass */
+/* line 29, ../sass/_header.sass */
 header li {
   font-size: 1.3em;
   display: inline-block;
   border: 1px solid white;
   border-radius: 100px;
-  margin: 20px;
   font-weight: bold;
+  margin: 20px 20px 0;
 }
-/* line 30, ../sass/_header.sass */
+@media (max-width: 500px) {
+  /* line 29, ../sass/_header.sass */
+  header li {
+    margin: 20px 8px 0;
+  }
+}
+/* line 39, ../sass/_header.sass */
 header li a {
   color: white;
   padding: 20px 0;
   display: inline-block;
   border-radius: 100px;
   text-decoration: none;
-  height: 70px;
-  width: 70px;
   box-sizing: border-box;
   text-align: center;
   vertical-align: bottom;
+  height: 70px;
+  width: 70px;
 }
-/* line 42, ../sass/_header.sass */
+@media (max-width: 500px) {
+  /* line 39, ../sass/_header.sass */
+  header li a {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+  }
+}
+/* line 55, ../sass/_header.sass */
 header .bbl a {
   letter-spacing: -0.1em;
   font-size: 0.7em;
   padding-top: 25px;
+}
+@media (max-width: 500px) {
+  /* line 55, ../sass/_header.sass */
+  header .bbl a {
+    padding: 18px 12px;
+  }
 }
 
 /* line 4, ../sass/_article.sass */
@@ -171,23 +204,32 @@ article a .description p {
   padding: 10px 20px;
 }
 
-/* line 7, ../sass/main.sass */
+/* line 8, ../sass/main.sass */
 html {
   background: url("../img/bg.jpg") center center fixed;
   background-size: cover;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
-/* line 11, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
 body {
   font-family: "Source Code Pro", sans-serif;
   background: repeating-linear-gradient(0.13turn, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 25%) no-repeat fixed;
   color: white;
   overflow: auto;
-  padding: 40px 0;
   text-align: center;
+  overflow-x: hidden;
+  padding: 40px 0;
+}
+@media (max-width: 500px) {
+  /* line 14, ../sass/main.sass */
+  body {
+    padding: 10px;
+  }
 }
 
-/* line 19, ../sass/main.sass */
+/* line 25, ../sass/main.sass */
 a {
   outline: none;
 }

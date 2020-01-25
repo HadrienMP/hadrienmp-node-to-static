@@ -3,18 +3,24 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900&display=swap')
 @import "header"
 @import "article"
+@import "configuration"
 
 html
   background: url("../img/bg.jpg") center center fixed
   background-size: cover
+  overflow: auto
+  overflow-x: hidden
 
 body
   font-family: "Source Code Pro", sans-serif
   background: repeating-linear-gradient(0.13turn, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 25%) no-repeat fixed
   color: white
   overflow: auto
-  padding: 40px 0
   text-align: center
+  overflow-x: hidden
+  padding: 40px 0
+  @media (max-width: $small-size)
+    padding: 10px
 
 a
   outline: none
