@@ -95,7 +95,7 @@ header h1 {
 @media (max-width: 500px) {
   /* line 18, ../sass/_header.sass */
   header h1 {
-    letter-spacing: -0.09em;
+    letter-spacing: -0.08em;
   }
 }
 /* line 26, ../sass/_header.sass */
@@ -114,7 +114,7 @@ header li {
 @media (max-width: 500px) {
   /* line 29, ../sass/_header.sass */
   header li {
-    margin: 20px 8px 0;
+    margin: 20px 7px 0;
   }
 }
 /* line 39, ../sass/_header.sass */
@@ -133,9 +133,9 @@ header li a {
 @media (max-width: 500px) {
   /* line 39, ../sass/_header.sass */
   header li a {
-    height: 50px;
-    width: 50px;
-    padding: 15px;
+    height: 40px;
+    width: 40px;
+    padding: 11px;
   }
 }
 /* line 55, ../sass/_header.sass */
@@ -147,7 +147,7 @@ header .bbl a {
 @media (max-width: 500px) {
   /* line 55, ../sass/_header.sass */
   header .bbl a {
-    padding: 18px 12px;
+    padding: 14px 9px;
   }
 }
 
