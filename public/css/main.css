@@ -69,26 +69,27 @@ header {
   margin-top: 150px;
   text-align: center;
   font-size: 1.5em;
+  margin-bottom: 130px;
 }
-/* line 6, ../sass/_header.sass */
+/* line 7, ../sass/_header.sass */
 header img {
   border-radius: 100px;
   border: 2px solid white;
   margin: 0 auto;
   display: block;
 }
-/* line 12, ../sass/_header.sass */
+/* line 13, ../sass/_header.sass */
 header h1 {
   margin: 30px 0 10px;
   font-size: 2em;
   font-weight: 900;
   letter-spacing: -0.1em;
 }
-/* line 18, ../sass/_header.sass */
+/* line 19, ../sass/_header.sass */
 header h2 {
   letter-spacing: 0.2px;
 }
-/* line 21, ../sass/_header.sass */
+/* line 22, ../sass/_header.sass */
 header li {
   font-size: 1.3em;
   display: inline-block;
@@ -97,7 +98,7 @@ header li {
   margin: 20px;
   font-weight: bold;
 }
-/* line 29, ../sass/_header.sass */
+/* line 30, ../sass/_header.sass */
 header li a {
   color: white;
   padding: 20px 0;
@@ -110,7 +111,7 @@ header li a {
   text-align: center;
   vertical-align: bottom;
 }
-/* line 41, ../sass/_header.sass */
+/* line 42, ../sass/_header.sass */
 header .bbl a {
   letter-spacing: -0.1em;
   font-size: 0.7em;
@@ -118,37 +119,33 @@ header .bbl a {
 }
 
 /* line 4, ../sass/_article.sass */
-header + article {
-  margin-top: 130px;
-}
-
-/* line 7, ../sass/_article.sass */
 article {
   width: 800px;
-  margin: 10px auto;
+  margin: 10px;
   line-height: 1.2em;
+  display: inline-block;
 }
-/* line 13, ../sass/_article.sass */
+/* line 10, ../sass/_article.sass */
 article:nth-child(odd) img {
   float: right;
 }
-/* line 17, ../sass/_article.sass */
+/* line 14, ../sass/_article.sass */
 article a {
   color: white;
   text-decoration: none;
 }
-/* line 21, ../sass/_article.sass */
+/* line 18, ../sass/_article.sass */
 article a > * {
   display: inline-block;
   vertical-align: top;
 }
-/* line 25, ../sass/_article.sass */
+/* line 22, ../sass/_article.sass */
 article a img {
   width: 200px;
   height: 200px;
   background: white;
 }
-/* line 30, ../sass/_article.sass */
+/* line 27, ../sass/_article.sass */
 article a .description {
   height: 200px;
   box-sizing: border-box;
@@ -160,7 +157,7 @@ article a .description {
   background-image: -webkit-linear-gradient(330deg, rgba(0, 0, 0, 0.5), rgba(0, 148, 255, 0) 90%);
   background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5), rgba(0, 148, 255, 0) 90%);
 }
-/* line 37, ../sass/_article.sass */
+/* line 34, ../sass/_article.sass */
 article a .description h3 {
   font-size: 1.2em;
   font-weight: bold;
@@ -169,7 +166,7 @@ article a .description h3 {
   border-bottom: solid 1px rgba(255, 255, 255, 0.5);
   letter-spacing: -0.1em;
 }
-/* line 45, ../sass/_article.sass */
+/* line 42, ../sass/_article.sass */
 article a .description p {
   padding: 10px 20px;
 }
@@ -177,18 +174,20 @@ article a .description p {
 /* line 7, ../sass/main.sass */
 html {
   background: url("../img/background.jpg") center center fixed;
+  background-size: cover;
 }
 
-/* line 10, ../sass/main.sass */
+/* line 11, ../sass/main.sass */
 body {
   font-family: "Source Code Pro", sans-serif;
-  background: repeating-linear-gradient(0.13turn, transparent 0%, rgba(0, 0, 0, 0.4) 25%) no-repeat fixed;
+  background: repeating-linear-gradient(0.13turn, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 25%) no-repeat fixed;
   color: white;
   overflow: auto;
   padding: 40px 0;
+  text-align: center;
 }
 
-/* line 17, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 a {
   outline: none;
 }
