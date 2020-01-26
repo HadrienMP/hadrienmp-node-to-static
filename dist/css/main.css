@@ -95,7 +95,7 @@ header h1 {
 @media (max-width: 500px) {
   /* line 18, ../sass/_header.sass */
   header h1 {
-    letter-spacing: 0;
+    letter-spacing: -0.5px;
   }
 }
 /* line 26, ../sass/_header.sass */
