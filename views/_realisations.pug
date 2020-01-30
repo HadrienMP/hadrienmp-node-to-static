@@ -1,0 +1,8 @@
+each realisation, index in realisations
+    article
+        a(href=realisation.url target='_blank')
+            img.thumbnail(src=realisation.img alt=realisation.alt)
+            .description
+                h3 #{realisation.title}&nbsp;
+                    img(src='/img/external-link.png' alt='External link')
+                p #{realisation.description}

@@ -11,9 +11,8 @@ article
   vertical-align: top
   @media (max-width: $small-size)
     width: auto
-    margin: -30px 0 0
 
-  &:nth-child(odd) img
+  &:nth-child(odd) img.thumbnail
     margin-left: 20px
     margin-right: 0
     float: right
@@ -24,7 +23,7 @@ article
     text-decoration: none
     display: block
 
-    img
+    img.thumbnail
       width: 200px
       height: 200px
       background: white
@@ -35,7 +34,7 @@ article
         height: 50px
         float: right
         position: relative
-        top: 50px
+        margin: 0
 
     .description
       min-height: 200px
@@ -52,6 +51,10 @@ article
         padding: 15px 20px
         border-bottom: solid 1px $border-color
         letter-spacing: -0.1em
+
+        img
+          height: .8em
+          margin-left: 7px
 
         i
           margin-left: 5px

@@ -79,7 +79,7 @@ header {
   }
 }
 /* line 12, ../sass/_header.sass */
-header img {
+header .profile {
   border-radius: 100px;
   border: 2px solid white;
   margin: 0 auto;
@@ -139,13 +139,18 @@ header li a {
   }
 }
 /* line 55, ../sass/_header.sass */
+header li a img {
+  height: 1em;
+  margin-top: -1px;
+}
+/* line 59, ../sass/_header.sass */
 header .bbl a {
   letter-spacing: -0.1em;
   font-size: 0.7em;
   padding-top: 25px;
 }
 @media (max-width: 572px) {
-  /* line 55, ../sass/_header.sass */
+  /* line 59, ../sass/_header.sass */
   header .bbl a {
     padding: 14px 9px;
   }
@@ -163,23 +168,22 @@ article {
   /* line 6, ../sass/_article.sass */
   article {
     width: auto;
-    margin: -30px 0 0;
   }
 }
-/* line 16, ../sass/_article.sass */
-article:nth-child(odd) img {
+/* line 15, ../sass/_article.sass */
+article:nth-child(odd) img.thumbnail {
   margin-left: 20px;
   margin-right: 0;
   float: right;
 }
-/* line 22, ../sass/_article.sass */
+/* line 21, ../sass/_article.sass */
 article a {
   color: white;
   text-decoration: none;
   display: block;
 }
-/* line 27, ../sass/_article.sass */
-article a img {
+/* line 26, ../sass/_article.sass */
+article a img.thumbnail {
   width: 200px;
   height: 200px;
   background: white;
@@ -187,16 +191,16 @@ article a img {
   margin-right: 20px;
 }
 @media (max-width: 572px) {
-  /* line 27, ../sass/_article.sass */
-  article a img {
+  /* line 26, ../sass/_article.sass */
+  article a img.thumbnail {
     width: 50px;
     height: 50px;
     float: right;
     position: relative;
-    top: 50px;
+    margin: 0;
   }
 }
-/* line 40, ../sass/_article.sass */
+/* line 39, ../sass/_article.sass */
 article a .description {
   min-height: 200px;
   box-sizing: border-box;
@@ -208,12 +212,12 @@ article a .description {
   background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5), rgba(0, 148, 255, 0) 90%);
 }
 @media (max-width: 572px) {
-  /* line 40, ../sass/_article.sass */
+  /* line 39, ../sass/_article.sass */
   article a .description {
     height: auto;
   }
 }
-/* line 48, ../sass/_article.sass */
+/* line 47, ../sass/_article.sass */
 article a .description h3 {
   font-size: 1.2em;
   font-weight: bold;
@@ -222,18 +226,23 @@ article a .description h3 {
   border-bottom: solid 1px rgba(255, 255, 255, 0.5);
   letter-spacing: -0.1em;
 }
-/* line 56, ../sass/_article.sass */
+/* line 55, ../sass/_article.sass */
+article a .description h3 img {
+  height: 0.8em;
+  margin-left: 7px;
+}
+/* line 59, ../sass/_article.sass */
 article a .description h3 i {
   margin-left: 5px;
 }
-/* line 59, ../sass/_article.sass */
+/* line 62, ../sass/_article.sass */
 article a .description p {
   padding: 10px 20px;
 }
 
 /* line 8, ../sass/main.sass */
 html {
-  background: url("../img/bg.jpg") center center fixed;
+  background: #93addf url("../img/bg.jpg") fixed center center;
   background-size: cover;
   overflow: auto;
   overflow-x: hidden;

@@ -5,25 +5,20 @@ html
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         title HadrienMP
         link(rel='stylesheet' href='/css/main.css')
-        script(src="https://kit.fontawesome.com/36321d34e2.js" crossorigin="anonymous")
     body
         #wrapper
             header
-                img(src='/img/profile.png' alt='Profile picture' width=150)
+                img.profile(src='/img/profile.png' alt='Profile picture' width=150)
                 h1 Hadrien MENS&nbsp;PELLEN
                 h2 Développeur - Software Crafter - Musicien
                 ul
-                    li: a(href='https://twitter.com/HadrienMP' target='_blank' title='@HadrienMP'): i.fab.fa-twitter
+                    li: a(href='https://twitter.com/HadrienMP' target='_blank' title='@HadrienMP' aria-label='Twitter')
+                        img(alt='T' src='/img/twitter.png')
                     li: a(href='http://www.linkedin.com/pub/hadrien-mens-pellen/31/712/390' target='_blank' title='Linked In') in
-                    li: a(href='https://github.com/HadrienMP' target='_blank' title='Github'): i.fab.fa-github
-                    li: a(href='mailto:web@hadrienmp.fr' title='Mail'): i.fas.fa-envelope
+                    li: a(href='https://github.com/HadrienMP' target='_blank' title='Github')
+                        img(alt='G' src='/img/github.png')
+                    li: a(href='mailto:web@hadrienmp.fr' title='Mail')
+                        img(alt='M' src='/img/mail.png')
                     li.bbl: a(href='http://www.brownbaglunch.fr/baggers.html#hadrien-mens-pellen' title='Mon BBL' target='_blank') BBL
 
-            each realisation, index in realisations
-                article
-                    a(href=realisation.url target='_blank')
-                        img(src=realisation.img alt=realisation.alt)
-                        .description
-                            h3 #{realisation.title}&nbsp;
-                                i.fas.fa-external-link-alt
-                            p #{realisation.description}
+            include _realisations
