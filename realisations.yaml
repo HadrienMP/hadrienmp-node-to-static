@@ -17,14 +17,13 @@
     avec les autres c'est le son d'alarme customisable et randomisé.
 
 - title: Limbo
-  url: https://github.com/HadrienMP
+  url: https://github.com/HadrienMP/limbo
   img: "/img/limbo.jpg"
   alt: Mob time screenshot
-  description: En 2019 avec l'équipe Fairways Guaranties de Finance Active, nous avons
-    pu faire le choix de travailler en mob programming. D'après nos mesures, c'est
-    une organisation qui fonctionnait bien pour nous. Pour que tout le monde ait le
-    clavier souvent, nous avons créé notre horloge de mob. Son point de différence
-    avec les autres c'est le son d'alarme customisable et randomisé.
+  description: Un outil git en ligne de commande qui push / pull en continu. Si vous travaillez en coopération
+    à distance, ou simplement que vous préférez utiliser votre setup en binomage, l'outil est génial. Faites de petis
+    commits, et votre code est partagé en direct sur le(s) poste(s) de vos collègues. C'est une manière de travailler
+    très fun et productive.
 
 - title: Random Estimates
   url: http://randomestimates.hadrienmp.fr
