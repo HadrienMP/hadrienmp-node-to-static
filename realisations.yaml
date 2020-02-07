@@ -6,6 +6,15 @@
     de celle-ci est que chaque heure a une couleur. La couleur du fond suit le dégradé
     entre l'heure entamée et l'heure suivante.
 
+- title: Velocity stats
+  url: https://velocity-stats.herokuapp.com/
+  img: "/img/velocity-stats.png"
+  alt: Velocity stats screenshot
+  description: A simple web page to analyse the velocity and predictability of a team using either Jira or Pivotal Tracker.
+    It shows the number of features, bugs and "other" work done by month and week. For the predictability is uses boxplot
+    to compare the predictability of two methods, by story points or by number of "tickets". The smallest box is the
+    technique that is the most predictable for your team.
+
 - title: Mob Time
   url: http://mobtime.hadrienmp.fr
   img: "/img/mobtime.png"
