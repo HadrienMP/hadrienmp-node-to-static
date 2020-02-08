@@ -10,10 +10,9 @@
   url: https://velocity-stats.herokuapp.com/
   img: "/img/velocity-stats.png"
   alt: Velocity stats screenshot
-  description: A simple web page to analyse the velocity and predictability of a team using either Jira or Pivotal Tracker.
-    It shows the number of features, bugs and "other" work done by month and week. For the predictability is uses boxplot
-    to compare the predictability of two methods, by story points or by number of "tickets". The smallest box is the
-    technique that is the most predictable for your team.
+  description: "Un outil de statistiques de vélocité. Son but est de déterminer, pour une équipe, la technique de prévision
+    la plus précise. La boite à moustache la plus petite le détermine. Les possibilités analysées sont : story points,
+    nombre de stories, nombre de bugs, nombre de tickets (par mois et par semaine)."
 
 - title: Mob Time
   url: http://mobtime.hadrienmp.fr
