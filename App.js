@@ -7,6 +7,10 @@ app.get('/', function (req, res) {
     res.render('index', {realisations: readRealisations()});
 });
 
+app.get('/resume', function (req, res) {
+    res.render('resume');
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, function () {
