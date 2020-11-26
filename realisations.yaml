@@ -6,14 +6,6 @@
     de celle-ci est que chaque heure a une couleur. La couleur du fond suit le dégradé
     entre l'heure entamée et l'heure suivante.
 
-- title: Velocity stats
-  url: https://velocity-stats.herokuapp.com/
-  img: "/img/velocity-stats.png"
-  alt: Velocity stats screenshot
-  description: "Un outil de statistiques de vélocité. Son but est de déterminer, pour une équipe, la technique de prévision
-    la plus précise. La boite à moustache la plus petite le détermine. Les possibilités analysées sont : story points,
-    nombre de stories, nombre de bugs, nombre de tickets (par mois et par semaine)."
-
 - title: Mob Time
   url: http://mobtime.hadrienmp.fr
   img: "/img/mobtime.png"
@@ -23,6 +15,28 @@
     une organisation qui fonctionnait bien pour nous. Pour que tout le monde ait le
     clavier souvent, nous avons créé notre horloge de mob. Son point de différence
     avec les autres c'est le son d'alarme customisable et randomisé.
+
+- title: Extreme Planning Poker
+  url: https://extreme-planning-poker.herokuapp.com/
+  img: "/img/Extreme_Planning_Poker.png"
+  alt: Extreme planning poker cards
+  description: Un jeu de carte ouvert à tous pour les demandes d'estimations. Plusieurs jeux de cartes seront disponibles.
+    Pour l'instant le seul est l'échelle de Fairways Garanties, de 0 à 3. Des échelles plus et moins précises seront
+    ajoutées comme les tailles de t-shirt.
+  technologies:
+    - Elm
+    - Typescript
+    - Nodejs
+    - Express
+
+- title: Velocity stats
+  url: https://velocity-stats.herokuapp.com/
+  img: "/img/velocity-stats.png"
+  alt: Velocity stats screenshot
+  description: "Un outil de statistiques de vélocité. Son but est de déterminer, pour une équipe, la technique de prévision
+    la plus précise. La boite à moustache la plus petite le détermine. Les possibilités analysées sont : story points,
+    nombre de stories, nombre de bugs, nombre de tickets (par mois et par semaine)."
+
 
 - title: Limbo
   url: https://github.com/HadrienMP/limbo
