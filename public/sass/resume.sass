@@ -6,10 +6,12 @@ $border-color: #999
 
 body
   font-family: "Source Code Pro", sans-serif
-  max-width: 1000px
-  margin: 50px auto
+  width: 20cm
+  margin: auto
   text-align: justify
   line-height: 1.2em
+  font-size: 10pt
+
 
 a
   outline: none
@@ -19,9 +21,8 @@ a
 
 h1, h2, h3, h4
   font-weight: bold
+
 h1
-  font-size: 27px
-  margin-top: 20px
   i
     width: $second-indent
     text-align: center
@@ -31,31 +32,35 @@ dt
 
 ul
   padding-left: 20px
+
 li
   list-style-type: circle
 
 strong
   font-weight: bold
 
+#container
+  display: flex
+  flex-direction: row
 
 #first
-  float: left
   width: 33%
+  padding-right: 30px
 
   #personal
     margin-bottom: 20px
     text-transform: uppercase
 
     h1
-      font-size: 41px
-      margin-top: 0
-      letter-spacing: .7px
-      line-height: 1em
+
       #first-name
-        letter-spacing: 30.5px
-        font-size: 0.7em
+        font-size: 3em
+        letter-spacing: 8.4px
       span
-        display: inline-block
+        display: block
+        font-size: 2.49em
+        line-height: 1em
+
     h2
       font-size: 20px
       text-align: center
@@ -63,41 +68,44 @@ strong
 
   h3
     margin: 10px 0
+
     i
       width: 30px
 
 
 #second
-  $border-position: 25px
-
-  margin-left: 35%
-  padding-top: 1px
+  $border-position: 24px
+  width: 67%
 
   section
     margin-left: $border-position
     padding-left: $second-indent - $border-position
-    border-left: 1px solid $border-color
+    border-left: 2px solid $border-color
+
   h1
-    margin-bottom: 10px
+    margin: 10px 0 10px
     font-size: 1.5em
+
   h2
     font-size: 1em
-    margin: 4em 0 1em
+    margin: 2em 0 1em
+
   h3
-    font-size: 15px
-    margin: 1em 0
+    font-size: 1em
+    margin: 10px 0
 
   #experience
     position: relative
+
     .xp
       h2
         display: inline-block
-        margin-top: 40px
         font-size: 1.2em
+
         &:before
           content: "o"
           position: absolute
-          left: $border-position - 6.5px
+          left: $border-position - 3.5px
 
       &:first-child
         h2
@@ -108,14 +116,17 @@ strong
         display: inline-block
         font-weight: normal
         margin-top: 10px
+
         &:before
           content: " - "
 
     .tech
       li
         display: inline-block
+
         &:after
           content: ","
           margin-right: 5px
+
         &:last-child:after
           content: ""
