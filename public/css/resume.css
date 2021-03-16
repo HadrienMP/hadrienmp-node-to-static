@@ -73,155 +73,169 @@ body {
   line-height: 1.2em;
   font-size: 10pt;
 }
+@media screen {
+  /* line 7, ../sass/resume.sass */
+  body {
+    margin: 1cm auto;
+  }
+}
 
-/* line 16, ../sass/resume.sass */
+/* line 18, ../sass/resume.sass */
 a {
   outline: none;
 }
 
-/* line 19, ../sass/resume.sass */
+/* line 21, ../sass/resume.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 22, ../sass/resume.sass */
+/* line 24, ../sass/resume.sass */
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-/* line 26, ../sass/resume.sass */
+/* line 28, ../sass/resume.sass */
 h1 i {
   width: 50px;
   text-align: center;
 }
 
-/* line 30, ../sass/resume.sass */
+/* line 32, ../sass/resume.sass */
 dt {
   float: left;
 }
 
-/* line 33, ../sass/resume.sass */
+/* line 35, ../sass/resume.sass */
 ul {
   padding-left: 20px;
 }
 
-/* line 36, ../sass/resume.sass */
+/* line 38, ../sass/resume.sass */
 li {
   list-style-type: circle;
 }
 
-/* line 39, ../sass/resume.sass */
+/* line 41, ../sass/resume.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 42, ../sass/resume.sass */
+/* line 44, ../sass/resume.sass */
 #container {
   display: flex;
   flex-direction: row;
 }
 
-/* line 46, ../sass/resume.sass */
+/* line 48, ../sass/resume.sass */
 #first {
   width: 33%;
   padding-right: 30px;
 }
-/* line 50, ../sass/resume.sass */
+/* line 52, ../sass/resume.sass */
 #first #personal {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-/* line 56, ../sass/resume.sass */
+/* line 58, ../sass/resume.sass */
 #first #personal h1 #first-name {
   font-size: 3em;
   letter-spacing: 8.4px;
 }
-/* line 59, ../sass/resume.sass */
+/* line 61, ../sass/resume.sass */
 #first #personal h1 span {
   display: block;
   font-size: 2.49em;
   line-height: 1em;
 }
-/* line 64, ../sass/resume.sass */
+/* line 66, ../sass/resume.sass */
 #first #personal h2 {
   font-size: 20px;
   text-align: center;
   margin: 20px 0 40px;
 }
-/* line 69, ../sass/resume.sass */
+/* line 71, ../sass/resume.sass */
+#first ul {
+  padding-left: 15px;
+}
+/* line 73, ../sass/resume.sass */
+#first ul li {
+  padding-left: 15px;
+}
+/* line 76, ../sass/resume.sass */
 #first h3 {
   margin: 10px 0;
 }
-/* line 72, ../sass/resume.sass */
+/* line 79, ../sass/resume.sass */
 #first h3 i {
   width: 30px;
 }
 
-/* line 76, ../sass/resume.sass */
+/* line 83, ../sass/resume.sass */
 #second {
   width: 67%;
 }
-/* line 80, ../sass/resume.sass */
+/* line 87, ../sass/resume.sass */
 #second section {
   margin-left: 24px;
   padding-left: 26px;
   border-left: 2px solid #999;
 }
-/* line 85, ../sass/resume.sass */
+/* line 92, ../sass/resume.sass */
 #second h1 {
   margin: 10px 0 10px;
   font-size: 1.5em;
 }
-/* line 89, ../sass/resume.sass */
+/* line 96, ../sass/resume.sass */
 #second h2 {
   font-size: 1em;
   margin: 2em 0 1em;
 }
-/* line 93, ../sass/resume.sass */
+/* line 100, ../sass/resume.sass */
 #second h3 {
   font-size: 1em;
   margin: 10px 0;
 }
-/* line 97, ../sass/resume.sass */
+/* line 104, ../sass/resume.sass */
 #second #experience {
   position: relative;
 }
-/* line 101, ../sass/resume.sass */
+/* line 108, ../sass/resume.sass */
 #second #experience .xp h2 {
   display: inline-block;
   font-size: 1.2em;
 }
-/* line 105, ../sass/resume.sass */
+/* line 112, ../sass/resume.sass */
 #second #experience .xp h2:before {
   content: "o";
   position: absolute;
   left: 20.5px;
 }
-/* line 111, ../sass/resume.sass */
+/* line 118, ../sass/resume.sass */
 #second #experience .xp:first-child h2 {
   margin-top: 0;
 }
-/* line 114, ../sass/resume.sass */
+/* line 121, ../sass/resume.sass */
 #second #experience .xp h4 {
   margin-left: 7px;
   display: inline-block;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 120, ../sass/resume.sass */
+/* line 127, ../sass/resume.sass */
 #second #experience .xp h4:before {
   content: " - ";
 }
-/* line 124, ../sass/resume.sass */
+/* line 131, ../sass/resume.sass */
 #second #experience .tech li {
   display: inline-block;
 }
-/* line 127, ../sass/resume.sass */
+/* line 134, ../sass/resume.sass */
 #second #experience .tech li:after {
   content: ",";
   margin-right: 5px;
 }
-/* line 131, ../sass/resume.sass */
+/* line 138, ../sass/resume.sass */
 #second #experience .tech li:last-child:after {
   content: "";
 }
